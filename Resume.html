@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Vinay Kumar - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .container {
+            max-width: 8.5in;
+            min-height: 11in;
+        }
+        .section-title {
+            border-bottom: 2px solid #e2e8f0; /* slate-200 */
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* font-semibold */
+            color: #1e293b; /* slate-800 */
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .item-title {
+            font-weight: 600;
+            color: #0f172a; /* slate-900 */
+        }
+        .item-subtitle {
+            font-weight: 500;
+            color: #475569; /* slate-600 */
+        }
+        .date-location {
+            color: #64748b; /* slate-500 */
+            font-size: 0.875rem; /* text-sm */
+            font-style: italic;
+        }
+        .contact-link {
+            transition: color 0.3s ease;
+        }
+        .contact-link:hover {
+            color: #2563eb; /* blue-600 */
+        }
+        .contact-link:hover i { color: #1d4ed8; } /* blue-700 */
+
+    </style>
+</head>
+<body class="bg-slate-50 flex justify-center p-4 sm:p-8">
+
+    <div id="resume" class="container bg-white shadow-lg rounded-lg p-8 sm:p-12">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl sm:text-5xl font-bold text-slate-800">Vinay Kumar</h1>
+            <p class="text-xl text-slate-600 mt-2">Software Engineer | AI & ML Enthusiast | MERN Stack Developer</p>
+            <div class="mt-4 flex justify-center items-center flex-wrap gap-x-4 gap-y-2 text-slate-600 text-sm sm:text-base">
+                <a href="tel:8368010726" class="contact-link flex items-center gap-1"><i class="fas fa-phone"></i>+918368010726</a>
+                <span class="hidden sm:inline">&bull;</span>
+                <a href="mailto:omrajputkumar@gmail.com" class="contact-link flex items-center gap-1"><i class="fas fa-envelope"></i> omrajputkumar@gmail.com</a>
+                <span class="hidden sm:inline">&bull;</span>
+                <a href="https://www.linkedin.com/in/vinay-vk-kumar/" target="_blank" class="contact-link flex items-center gap-1"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                 <span class="hidden sm:inline">&bull;</span>
+                <a href="https://github.com/vinay-vk-kumar" target="_blank" class="contact-link flex items-center gap-1"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </header>
+
+        <section id="summary" class="mb-8">
+             <p class="text-center text-slate-700 leading-relaxed max-w-3xl mx-auto">
+                Aspiring Software Developer and a 3rd-year B.Tech student at VIT Bhopal (CGPA: 8.85) specializing in AI & ML. Proficient in MERN stack development and data structures, now expanding skills in Machine Learning. Passionate about building scalable applications and solving complex problems.
+            </p>
+        </section>
+
+        <section id="education" class="mb-8">
+            <h2 class="section-title">Education</h2>
+            <div class="flex justify-between items-start">
+                <div>
+                    <h3 class="item-title text-lg">B.Tech, Computer Science & Engineering (AI & ML)</h3>
+                    <p class="item-subtitle">VIT Bhopal University</p>
+                    <p class="text-slate-700 mt-1">Current CGPA: <strong>8.85</strong></p>
+                </div>
+                <p class="date-location text-right">2023 – 2027<br>Bhopal, India</p>
+            </div>
+        </section>
+        
+<section id="certifications" class="mb-8">
+            <h2 class="section-title">Certifications</h2>
+            <div class="flex justify-between items-start">
+                <div>
+                    <h3 class="item-title text-lg">AWS Certified Cloud Practitioner</h3>
+                    <p class="item-subtitle">Issued by Amazon Web Services (AWS)</p>
+                </div>
+                <a href="https://www.credly.com/badges/f97b7ed6-df28-4eed-b33a-b72b519ce8eb/public_url" target="_blank" class="date-location text-right text-blue-600 hover:underline">
+                    View Credential
+                </a>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-8">
+            <h2 class="section-title">Projects</h2>
+            <div class="mb-6">
+                <h3 class="item-title text-lg">EventSnap - Facial Recognition Photo Retrieval</h3>
+                <p class="mt-2 text-slate-700 space-y-1">
+                    Engineered the backend for a smart photo retrieval system. Implemented secure user authentication with JWT and Firebase Auth, and optimized a MongoDB database for fast facial recognition queries, enabling attendees to easily find their photos.
+                </p>
+                <p class="mt-2 text-sm text-slate-600"><strong>Technologies:</strong> Node.js, Express.js, MongoDB, JWT, Firebase, Facial Recognition APIs</p>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="item-title text-lg">Second Brain - Personal Knowledge Hub</h3>
+                <p class="mt-2 text-slate-700 space-y-1">
+                    Architected and developed a personal knowledge management application using the MERN stack. Allows users to aggregate and organize notes, and embed external content like YouTube videos and Twitter threads into a centralized hub.
+                </p>
+                <p class="mt-2 text-sm text-slate-600"><strong>Technologies:</strong> MERN Stack, REST APIs, Tailwind CSS</p>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="item-title text-lg">Expirey - Household Waste Reduction App</h3>
+                <p class="mt-2 text-slate-700 space-y-1">
+                    Created a practical solution to minimize food and product waste by developing an expiry date tracking application. The system allows for easy input of products and their expiry dates, providing users with a clear overview and preventing items from being overlooked.
+                </p>
+                <p class="mt-2 text-sm text-slate-600"><strong>Technologies:</strong> MERN Stack, REST APIs, Tailwind CSS</p>
+            </div>
+
+        </section>
+
+        <section id="skills" class="mb-8">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-slate-700">
+                <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">Languages</h4>
+                    <ul class="list-disc list-inside">
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">Full-Stack & Frameworks</h4>
+                    <ul class="list-disc list-inside">
+                        <li>MERN Stack</li>
+                        <li>Next.js</li>
+                        <li>REST APIs</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                 <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">Tools & Databases</h4>
+                    <ul class="list-disc list-inside">
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>AWS (Certified Cloud Practitioner)</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">Machine Learning (Learning)</h4>
+                    <ul class="list-disc list-inside">
+                        <li>NumPy, Pandas</li>
+                        <li>Scikit-learn</li>
+                        <li>Foundational Models</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2 class="section-title">Achievements & Activities</h2>
+            <ul class="list-disc list-inside text-slate-700 space-y-2">
+                <li><strong>LeetCode Problem Solving:</strong> Solved <strong>150+</strong> problems, demonstrating a strong grasp of Data Structures and Algorithms.(<a href="https://leetcode.com/u/Vinay_Kumar_2005/" target="_blank" class="text-blue-600 hover:underline">View Profile</a>)</li>
+                <li><strong>Competitive Programming:</strong> Consistently secured strong ranks in coding contests on platforms like LeetCode.</li>
+                <li><strong>Project Leadership:</strong> Led the backend development, authentication, and database design for the EventSnap project.</li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
